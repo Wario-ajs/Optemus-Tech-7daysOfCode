@@ -79,7 +79,7 @@ body {
 
 .banner {
     text-align: center;
-    padding-top: 3em;
+    padding: 3em 0;
 }
 
 .banner__titulo {
@@ -92,7 +92,7 @@ body {
     font-size: 48px;
     font-weight: 600;
     color: var(--cor-titulo); 
-    margin: 0.7em 0;   
+    margin: 0.7em 0;  
 }
 
 .banner__descricao {
@@ -102,3 +102,39 @@ body {
     color: var(--cor-secundaria);
     padding: 0 15em;  
 }
+
+.dados {
+    padding: 1em;
+}
+
+.dados__lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3em;
+}
+
+.dados__lista--item {
+    margin: 1em;
+}
+
+.dados__lista-quantidade {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.dados__lista-subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 0 0.5em 0;
+}
+
+.dados__lista-descricao {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cor-secundaria);    
+}
+
+
+
