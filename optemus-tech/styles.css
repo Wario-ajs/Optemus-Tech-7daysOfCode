@@ -212,3 +212,42 @@ body {
     font-size: 16px;
     color: var(--cor-secundaria);
 }
+
+.feedback {
+    padding: 0 2em 6em 2em;
+    margin: 0 4em;
+}
+
+.feedback__container {
+    background-color:rgb(195, 25, 25, 0.05);
+    text-align: center;
+    border-radius: 16px;    
+}
+
+.feedback__container--titulo {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3em 3em 0 3em;
+    color: var(--vermelho);
+}
+
+.feedback__container--subtitulo {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding: 1em 0 1em 0;
+}
+
+.feedback__container--colaboradora {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.6em 0;
+}
+
+.feedback__container--ocupacao {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    padding-bottom: 4em;
+}
+
