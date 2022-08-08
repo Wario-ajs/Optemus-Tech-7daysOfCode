@@ -136,5 +136,79 @@ body {
     color: var(--cor-secundaria);    
 }
 
+.vagas {
+    padding: 2em;
+}
 
+.vagas__top {
+    text-align: center;
+}
 
+.vagas__titulo {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background-color: rgb(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.vagas__subtitulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+    margin: 0.5em 0;
+}
+
+.vagas__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    margin-bottom: 1.5em;
+}
+
+.vagas__banner {
+    height: 50vh;
+    background: url(../optemus-tech/img/Image.png) no-repeat;
+    background-position: center;
+}
+
+.vagas__design {
+    padding: 3em 11em 2em 11em;
+}
+
+.vagas__dev {
+    padding: 0em 11em 2em 11em;
+}
+
+.vagas__design--titulo,
+.vagas__dev--titulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vagas__vaga {
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    padding: 2em;
+    border-radius: 16px;
+    margin: 1em;
+}
+
+.vagas__vaga--titulo {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+.vagas__vaga--container {
+    display: flex;
+    gap: 1em;
+}
+
+.vaga--container__jornada,
+.vaga--container__salario {
+    font-size: 16px;
+    color: var(--cor-secundaria);
+}
