@@ -1,7 +1,7 @@
 # Optemus-Tech--7daysOfCode-
 Repositorio criado para o desenvolvimento do projeto optemous tech apresentado no desafio 7 Days Of Code HTML & CSS da Alura
 
-[Link do projeto no Vercel](https://cuda-project-cbmnx31q5-wario-ajs.vercel.app/)
+[Link do projeto no Vercel](https://optemus-tech-7days-of-code.vercel.app/)
 
 ## Guia de estilos
 
@@ -21,5 +21,11 @@ Inter Web:
 ## Cores
 
 Cor-titulo: `#101828`
+
 Cor-secundaria: `#667085`
+
 Vermelho: `#8E2424`
+
+## Layout: 
+
+desktop: `1440px`
