@@ -29,3 +29,4 @@ Vermelho: `#8E2424`
 ## Layout: 
 
 desktop: `1440px`
+Sem versão Mobile
