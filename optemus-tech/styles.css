@@ -170,7 +170,7 @@ body {
 
 .vagas__banner {
     height: 50vh;
-    background: url(../optemus-tech/img/Image.png) no-repeat;
+    background: url("../optemus-tech/img/Image.png") no-repeat;
     background-position: center;
 }
 
